@@ -15,4 +15,10 @@ public class Main
         Cat topcat = new Cat();
         topcat.speak();
     }
+
+    /*public static void kill()
+    {
+        if (numLives >0
+    }*/
+
 }
