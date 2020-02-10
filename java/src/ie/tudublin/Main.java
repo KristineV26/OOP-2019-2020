@@ -17,6 +17,10 @@ public class Main
         System.out.println(misty.getName());  
         misty.speak();  
         Cat topcat = new Cat();
+        while(topcat.getNumLives() != 0)
+        {
+            topcat.kill();
+        }
         topcat.speak();
 
         Main main = new Main();
