@@ -13,12 +13,11 @@ public class Main
     {
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Loops());
-    }
-    
-    public void bugZap()
+    } 
+    public void bugZap1()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new BugZap());
+        processing.core.PApplet.runSketch( a, new BugZap1());
     }
     
     public void airSeaBattle()
@@ -26,7 +25,7 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new AirSeaBattle());
     }
-    
+
     public void dogsCats()
     {
         // Polymorphism means
@@ -65,11 +64,11 @@ public class Main
         // a & b are object references
 
     }
-    
+    */
     public static void main(String[] arg)
     {
         Main main = new Main();
-		main.loops();        
+		main.bugZap1();        
     }
 
     /*public static void kill()
