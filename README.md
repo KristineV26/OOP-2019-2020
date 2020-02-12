@@ -22,6 +22,69 @@ Resources
 - Week 12 Assignment Submission - 30%
 - End of Year exam - 50%
 
+# Week 3 - Using Loops in Java
+- [For loop](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
+- [While loop](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html)
+- [Foreach loop](https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html)
+
+## Lab
+
+### Learning Outcomes
+- Know how to write a for loop
+- Know how to write a while loop
+- Know when to use either type of loop
+- Practice computational thinking
+
+Update your fork with the latest code from my repo. 
+
+Create a branch for your work today:
+
+```b
+cd OOP-2019-2020
+git checkout -b lab3
+```
+You can add your code to the Loops class.
+
+To set colors, you can use the methods:
+
+```
+stroke
+fill
+background
+```
+
+These are methods on the PApplet class that take either one parameter (a greyscale value) or three parameters (RGB). Another way of generating colors is by using the HSB colorspace. HSB stands for Hue, Saturation and Brightness. In Processing, these values go between 0-255. Hue is the color, saturation is the amount of grey and brightness is the brightness. It is much easier to generate interesting colors procedurally using HSB colorspace. To use HSB colorspace, call:
+
+```
+colorMode(HSB);
+```
+
+In the setup method.
+
+Ok here are some patterns you can generate using loops. I suggest you modify the Loops class and add a *seperate method* to generate each of the patterns so you can keep your code modular. Don't forget to call the methods you write from ```draw()```. Also you can call colorMode, stroke and fill in each method you write as appropriate for the problem you are trying to solve.
+
+
+
+![](https://github.com/skooter500/GP-2018-2019/blob/master/images/p19.png)
+
+![](https://github.com/skooter500/GP-2018-2019/blob/master/images/p18.png)
+
+![](https://github.com/skooter500/GP-2018-2019/blob/master/images/p31.png)
+
+![](https://github.com/skooter500/GP-2018-2019/raw/master/images/p33.png)
+
+![](https://github.com/skooter500/GP-2018-2019/blob/master/images/p27.png)
+
+![](https://github.com/skooter500/GP-2018-2019/blob/master/images/p21.png)
+
+These next two require nested loops...
+
+![](https://github.com/skooter500/GP-2018-2019/raw/master/images/p32.png)
+
+![](https://github.com/skooter500/GP-2018-2019/raw/master/images/p23.png)
+
+for loops are probably a better choice for most of these, but you should try writing one or two of them using while loops for practice.
+
 # Week 2 - Using Variables in Java, HelloProcessing example
 
 - Check out the HelloProcessing class in the repo
@@ -29,6 +92,8 @@ Resources
 
 ![](https://github.com/skooter500/GP-2016-2017/blob/master/images/p1.2.png?raw=true)
 
+
+# Lab 2
 
 ## Learning Outcomes
 - Practice drawing stuff and working out co-ordinates
@@ -42,22 +107,27 @@ How you should do it:
 
 Ok let's get the main game working first and not worry about the splash screen and the game over screen
 
-- Clone the repository for the course, or pull from the remote repository to get the changes I made over the last couple of days
-- Get the HelloProcessing example working. See [these instructions](https://github.com/skooter500/OOP-2018-2019/blob/master/install.md).
-- Start bash and make sure you are in the java folder in the repository. Create a branch for your work today by typing:
+- Update your fork of the repository from the master branch. To do this, cd to the folder where you have cloned your repository, (or clone it somewhere if you need to) and type:
+
+```bash
+git checkout master
+git pull upstream master
+```
+
+- Create a branch for your work today by typing:
 
 ```
 git checkout -b lab2
 ```
 
-- Create a new class called BugZap.java in the ie.dit folder. Make it extend ```PApplet``` and add the ```settings```, ```setup``` and ```draw``` methods. Check out HelloProcessing.java if you need examples for these.
+- Create a new class called BugZap.java in the ie.tudublin folder. Make it extend ```PApplet``` and add the ```settings```, ```setup``` and ```draw``` methods. Check out HelloProcessing.java if you need examples for these.
 - Call ```size``` in ```settings``` to set the size of the drawing window. 
 - Edit the file Main.java so that it starts the BugZap class instead of the HelloProcessing class. I'll let you figure out how to do this.
 - Make sure everything works by compiling and running your program before continuing!
 
 Now we can draw the bug.
 
-- Make fields of type ```float``` in the BugZap class for ```playerX```, ```playerY``` and ```playerWidth``` and give these default values. You can decide what these should be. There are built in variables called width and height that give the width and height of the drawing window. These only get assigned after size has been called, so if you want to use these to give values to playerX, playerY etc. put the code into the setup method. 
+- Make fields of type ```float``` in the BugZap class for ```playerX```, ```playerY``` and ```playerWidth``` and give these default values. You can decide what these should be. There are built in variables called ```width``` and ```height``` that give the width and height of the drawing window. These only get assigned after size has been called, so if you want to use these to give values to playerX, playerY etc. put the code into the *setup* method. 
 - Write a method called void ```void drawPlayer(float x, float y, float w)``` that draws the player character, centered around the parameters x, y. You can use the line method to do this. You can pass variables as parameters to this method and also things like ```x + 20```, ```w * 0.5f``` etc. I made an extra variable in this method called h for the height and set it to be half the w parameter. Don't forget to set the stroke color!
 - Call this method from ```draw```, passing in the parameters playerX, playerY and playerWidth.
 - Compile and run everything to make sure it's working before continuing.
@@ -106,7 +176,6 @@ if ((frameCount % 60) == 0)
 - You can print text to the screen using the [text](https://processing.org/reference/text_.html) function.
 
 Ok you should now have the basics working. See if you can figure out how to check to see if the player hits the bug, add scoring, splash screen, game over screen and sound.
-
 
 # Week 1 - Introduction
 ## Lab
