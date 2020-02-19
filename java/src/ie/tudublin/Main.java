@@ -3,7 +3,17 @@ package ie.tudublin;
 public class Main
 {
 
+<<<<<<< HEAD
     public void helloArray()
+=======
+    public void helloArrays()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new ArraysExample());
+    }
+
+    public void helloProcessing()
+>>>>>>> upstream/master
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Arrays());
@@ -69,7 +79,11 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
+<<<<<<< HEAD
 		main.loops();   
+=======
+		main.helloArrays();        
+>>>>>>> upstream/master
     }
 
     /*public static void kill()
