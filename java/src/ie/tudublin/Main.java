@@ -13,7 +13,15 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new SoundSynthesis());
     }
+<<<<<<< HEAD
 >>>>>>> 8020600b6357fbb967332f1d8ebca78f16781c2e
+=======
+    public void starMap()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new StarMap());
+    }
+>>>>>>> 10449debb2cc89acc74fc7f92757175469b0cca5
     public void helloArrays()
 	{
 		String[] a = {"MAIN"};
@@ -113,6 +121,7 @@ public class Main
         Main main = new Main();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		main.loops();   
 =======
 		main.helloArrays();        
@@ -120,6 +129,9 @@ public class Main
 =======
 		main.soundSynthesis();        
 >>>>>>> 8020600b6357fbb967332f1d8ebca78f16781c2e
+=======
+		main.starMap();        
+>>>>>>> 10449debb2cc89acc74fc7f92757175469b0cca5
     }
 
     /*public static void kill()
