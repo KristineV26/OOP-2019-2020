@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+import processing.core.PApplet;
 import processing.data.TableRow;
 
 public class Star
@@ -113,6 +114,11 @@ public class Star
         );
     }
 
-
+    public void render(PApplet pa)
+    {
+        float border = pa.width * 0.05f;
+        float x = PApplet.map(xG - 5, 5, border, pa.width - border, x);
+        float x = PApplet.map(yG - 5, 5, border, pa.height - border, x);
+    }
     
 }
