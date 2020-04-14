@@ -1,134 +1,119 @@
 package ie.tudublin;
 
-public class Main
-{
+public class Main {
 
-    public void helloArray()
-    {
+  public void helloArray() {
 
-    }
+  }
 
-    public void soundSynthesis()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new SoundSynthesis());
-    }
+  public void soundSynthesis() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new SoundSynthesis());
+  }
 
-    public void starMap()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new StarMap());
-    }
+  public void starMap() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new StarMap());
+  }
 
-    public void helloArrays()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new ArraysExample());
-    }
+  public void helloArrays() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new ArraysExample());
+  }
 
-    public void helloProcessing()
+  public void helloProcessing()
 
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Arrays());
-    }
+  {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new Arrays());
+  }
 
-    public void loops()
-    {
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Loops());
-    }
-    
-    public void bugZap()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new BugZap());
-    }
-    
-    public void sound1()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Sound1());
-    }
+  public void loops() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new Loops());
+  }
 
-    public void sound2()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Sound2());
-    }
+  public void bugZap() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new BugZap());
+  }
 
-    public void audioBands()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new AudioBands());
-    }
+  public void sound1() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new Sound1());
+  }
 
-    public void airSeaBattle()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new AirSeaBattle());
-    }
+  public void sound2() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new Sound2());
+  }
 
-    public void soundMandala()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new SoundMandala());
-    }
-    
-    public void dogsCats()
-    {
-        // Polymorphism means
-        // The type is a superclass, the instance is a subclass
+  public void audioBands() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new AudioBands());
+  }
 
-        // This is not polymorphism
-        Cat topcat = new Cat("Topcat");
+  public void airSeaBattle() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new AirSeaBattle());
+  }
 
-        // This is polymorphism!
-        Animal mino = new Cat("Mino");
-        // A vitual method!
-        // Dynamic binding
-        mino.speak();
-        // This wont compile!!
-        //System.out.println(mino.getNumLives());
-        // This is an example of a cast
-        System.out.println(((Cat)mino).getNumLives());
+  public void soundMandala() {
+    String[] a = { "MAIN" };
+    processing.core.PApplet.runSketch(a, new SoundMandala());
+  }
 
-        mino = new Dog("Misty");  // This will compile!
-        //topcat = new Dog("Tara"); // This wont compile!
+  public void dogsCats() {
+    // Polymorphism means
+    // The type is a superclass, the instance is a subclass
 
-        Animal a = new Cat("a");
-        Animal b = new Cat("b");
-        
-        System.out.println(a);
-        System.out.println(b);
+    // This is not polymorphism
+    Cat topcat = new Cat("Topcat");
 
-        a = b;
+    // This is polymorphism!
+    Animal mino = new Cat("Mino");
+    // A vitual method!
+    // Dynamic binding
+    mino.speak();
+    // This wont compile!!
+    // System.out.println(mino.getNumLives());
+    // This is an example of a cast
+    System.out.println(((Cat) mino).getNumLives());
 
-        a.setName("c");
+    mino = new Dog("Misty"); // This will compile!
+    // topcat = new Dog("Tara"); // This wont compile!
 
-        System.out.println(a);
-        System.out.println(b);
+    Animal a = new Cat("a");
+    Animal b = new Cat("b");
 
-        // c c will get printed out because 
-        // a & b are object references
+    System.out.println(a);
+    System.out.println(b);
 
-    }
-    
-    public static void main(String[] arg)
-    {
-        Main main = new Main();
-		main.loops();   
+    a = b;
 
-        main.helloArrays();
-        
-        main.soundSynthesis();
-        
-		main.starMap();
-    }
+    a.setName("c");
 
-    /*public static void kill()
-    {
-        if (numLives >0
-    }*/
+    System.out.println(a);
+    System.out.println(b);
+
+    // c c will get printed out because
+    // a & b are object references
+
+  }
+
+  public static void main(String[] arg) {
+    Main main = new Main();
+    main.loops();
+
+    // main.helloArrays();
+
+    // m ain.soundSynthesis();
+
+    // main.starMap();
+  }
+
+  /*
+   * public static void kill() { if (numLives >0 }
+   */
 
 }
