@@ -1,7 +1,7 @@
 package ie.tudublin;
 
-import java.util.Arrays; 
-import java.util.Collections; 
+import java.util.Arrays;
+import java.util.Collections;
 
 import processing.core.PApplet;
 
@@ -153,8 +153,8 @@ public class ArraysExample extends PApplet
 		colorMode(HSB);	
 
 		//drawBarChart();
-		//drawLineGraph();
-		drawPieChart();
+		drawLineGraph();
+		//drawPieChart();
 		stroke(255);
 	}
 }
