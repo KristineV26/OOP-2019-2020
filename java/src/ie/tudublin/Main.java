@@ -126,15 +126,18 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-        main.loops();   
+        //main.loops();   
         
-		main.helloArrays();
+		//main.helloArrays();
 
-        main.soundSynthesis();
+        //main.soundSynthesis();
         
-        main.starMap();
+        //main.starMap();
         
-		main.cafe();
+        //main.cafe();
+        
+        main.sound1();
+        
     }
 
     /*public static void kill()
