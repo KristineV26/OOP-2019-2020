@@ -88,7 +88,7 @@ public class Sound3 extends PApplet
 				, 255
 				, 255
 			);
-			//line(i, cy, i, cy + ai.left.get(i) * cy);
+			line(i, cy, i, cy + as.left.get(i) * cy);
 			sum += abs(as.left.get(i));
 		}
 		average = sum / as.bufferSize();
@@ -101,8 +101,8 @@ public class Sound3 extends PApplet
 			, 255
 			, 255
 		);
-		//ellipse(400 , cy,w, w);
-		//ellipse(600 , cy,lerpedw, lerpedw);	
+		ellipse(400 , cy,w, w);
+		ellipse(600 , cy,lerpedw, lerpedw);	
 		
 		int count = countZeroCrossings();
 
