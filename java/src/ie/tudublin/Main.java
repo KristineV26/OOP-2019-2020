@@ -48,6 +48,12 @@ public class Main
         processing.core.PApplet.runSketch( a, new Sound1());
     }
 
+    public void sound2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound2());
+    }
+
     public void sound3()
 	{
 		String[] a = {"MAIN"};
@@ -122,6 +128,14 @@ public class Main
         // a & b are object references
 
     }
+
+    public void soundM(String name) {
+        String[] a = { "Main" };
+
+        if (name == "sound1") {
+            processing.core.PApplet.runSketch(a, new SoundM1());
+        }
+    }
     
     public static void main(String[] arg)
     {
@@ -137,7 +151,8 @@ public class Main
         //main.cafe();
         
         main.sound3();
-        
+
+        //main.soundM("sound1");
     }
 
     /*public static void kill()

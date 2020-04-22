@@ -1,0 +1,126 @@
+found it
+wait i have  q
+i thought that draw() is like setup() and settings() that you had to have it no?
+ohhhhhhhhhhhhh okay yeah that's better way to do it
+nothing ran
+it compiled (i think)
+but that was it
+./comprun.sh is what i wote
+and no git bash did not open
+well it was already open
+what do you mean
+nope
+i  am in git bashi am in the folder
+it is there
+wait you can see me terminal ohhhhhhhhhhhhh
+i know give me a second haha
+i sent the result in kakao
+did it compiled for you?
+it wont compile at all
+hahahhahahahahahahahahahahahahahahahahahahahahah
+i am mocking you
+it was me testing out the thing
+i dont know what to call it
+okay do you want to start?
+when i ran SoundM1
+i was testing the input
+because it was inputting from the mocking
+yes
+since it reacted when i tapped the 
+m
+STOP MOCKING ME 😠 😠 😠 😠 😠 😠
+
+ic
+
+its an auto thing when i tried to type mic it would go to MOCKING
+yes i am done
+
+it didnt become a rainbow
+it was just the white line from the top
+found it
+fourrier? yeah the code train thing also briefly explained
+i cannot spell~
+dont i need to know how it works to use it what
+wait when do i know how to use the hamming
+what happens if you take it out?
+do you want to try?
+can i try?
+yes~ yes~ ohhhhhhhhhhhhh okay~
+whats ai.bufferSize()
+but what does the ai. part do
+so its the bufferSize of the ai?
+yeah so its the size of the buffer of the audio in put?
+what
+so we get the bufferSize of the input(this case the mic)
+so its the bufferSize of the ai
+what okay....
+can you comment in the arguments?
+thank you
+sorry i moved so i sighed
+function to change it from what?
+alright~
+THIS AUDIO JARGON IS IMPORTANT
+YES THANK YOU!
+thanks baby ;p
+wait
+can you explaine is s'il vous plait
+merci mon chere je t'aime
+THAT IS LOVEEEEEEEEEEE
+ADORE IS TO ADORE!!
+MAHAL KITA
+sorry
+wait
+wait
+bianca messaged and she said asked if i wanted to join a group call of course the answer is no
+but will we be calling?
+in your class groupchat?
+can i ask her for you to join the groupchat? youre right~
+thats probably what everyone in the class
+are you talking timor? i feel like its him? i know who he is and youre better
+YOURE BETTER
+sorry yes
+yes
+sorry you froze a bit
+but what circle?
+okay~
+sorry
+can you explain getband again since you were lagging a bit
+yes i am
+okayok
+okay
+i am going to say lerp instead of lol now
+why did you STOP
+sorry thats my bro
+okay~ okay~
+baby
+isnt lerp going from one place(this case a circle) to another at the rate
+of the last argument (this case 0.1f)?
+yeah it goes to the start then it moves to the stop at the rate of amount
+no?
+got it~~
+yessss
+can i try something?
+thank you i understand~
+can i try compiling it without the hamming now?
+its in kakao
+it seems to not take anything from my mic
+yes you can continue with your explanation
+the eclipse are too small
+its hard to see and significant changes
+i did
+i even tapped it
+its teeny
+why do we need the average of the bufferSize?
+and the average of the bufferSize is the volume
+but why though~
+why do you need the average?
+wont it still work without the average?
+no i mean to not have a average at all
+the just the bufferSize
+okay but what are you adding up
+if the buffersize is constant
+yeah 
+can i try it again?
+haha you must be.... i dont know what to add tbh
+i was going to say a joke but i couldnt think of any
+yess
